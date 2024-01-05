@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ecommercegit/static/css/main.6a018077.css",
+    "main.js": "/ecommercegit/static/js/main.dd642c40.js",
+    "index.html": "/ecommercegit/index.html",
+    "main.6a018077.css.map": "/ecommercegit/static/css/main.6a018077.css.map",
+    "main.dd642c40.js.map": "/ecommercegit/static/js/main.dd642c40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a018077.css",
+    "static/js/main.dd642c40.js"
+  ]
+}

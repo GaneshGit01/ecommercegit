@@ -1,0 +1,292 @@
+.details{
+position: fixed;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.4);
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+
+.de_detail{
+background:rgb(16, 16, 36);
+color: white;
+max-width: 600px;
+width: 100%;
+border-radius: 2rem;
+box-shadow: 2px 3px 12px rgb(16, 16, 36);
+min-height: 300px;
+display: flex;
+flex-direction: column;
+position: relative;
+}
+
+.de_title{
+padding: 0.2rem;
+text-align: center;
+border-bottom: 2px solid black;
+}
+
+.p{
+padding-left: 5px;
+}
+
+.loc{
+margin-right: 5px;
+}
+
+
+.de_content ul{
+list-style-type: none;
+text-align: center;
+}
+
+.de_content ul li{
+padding:15px;
+font-weight: 550;
+}
+
+.de_content ul li p{
+text-align:start;
+margin: 30px;
+font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.de_footer{
+padding: 0.5rem;
+border-top: 1px solid black;
+display: flex;
+justify-content: flex-end;
+margin-bottom: -20px;
+}
+
+.de_close{
+position: absolute;
+font-size: 1.5rem;
+font-weight: bold;
+top:0.1rem;
+right: 1rem;
+cursor: pointer;
+margin-top: 8px;
+}
+
+.btn {
+margin: 7px 7px 0 7px ;
+padding: 10px 15px;
+border: 0;
+border-radius: 100px;
+background-color:rgb(9, 163, 104);
+color: rgb(16, 16, 36);
+font-weight: Bold;
+transition: all 0.5s;
+-webkit-transition: all 0.5s;
+}
+
+.btn:hover {
+color:black;
+background-color:rgb(9, 163, 104);
+box-shadow: 0 0 20px rgb(9, 163, 104);
+transform: scale(1.1);
+}
+
+.btn:active {
+background-color: #2A2B31;
+transition: all 0.25s;
+-webkit-transition: all 0.25s;
+box-shadow: none;
+transform: scale(0.98);
+}
+
+.prodimge{
+filter: drop-shadow(1px 10px 13px darkgrey);
+display: flex;
+margin-top: 10px;
+
+
+}
+.prices{
+margin-top: -100px;
+margin-left: -70px;
+
+}
+.de_heart{
+margin-right: -100px;
+height: 30px;
+width: 30px;
+margin-top: 50px;
+color: white;
+}
+.share{
+margin-right: -370px;
+margin-top: 50px;
+height: 30px;
+width: 30px;
+}
+.de_special{
+margin-top: -37px;
+color: rgb(0, 50, 0);
+}
+.de_price{
+margin-top: -37px;
+}
+.de_prod{
+margin-top: -140px;
+}
+.pricee{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 2px -50px 3px 4px;
+}
+
+.offf{
+padding: 0px;
+font-size: 14px;
+}
+
+.ho_qutys{
+margin-top: 200px;
+}
+
+.ho_inputs{
+width: 20px;
+height: 20px;
+text-align: center;
+align-items: center;
+background-color: darkgrey;
+color: black;
+border: 1px dotted #2A2B31;
+}
+
+.ho-divs{
+margin-top: -50px;
+margin-left: -48px;
+margin-bottom: -30px;
+}
+
+.deliv {
+    margin: 20px 0px -18px;
+    text-align: right;
+}
+
+.ho_btns{
+height: 20px;
+width: 20px;
+text-align: center;
+color: black;
+background-color: darkgrey;
+border: 1px dotted #2A2B31;
+}
+.rating{
+margin-left: -40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .fullview{
+position: fixed;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.4);
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.view-detail{
+background-color: rgb(16, 16, 36);  
+color: white;
+max-width: 600px;
+width: 100%;
+border-radius: 1rem;
+min-height: 300px;
+display: flex;
+flex-direction: column;
+position: relative;
+}
+
+.view-title{
+padding: 1rem;
+text-align: center;
+border-bottom: 2px solid black;
+}
+
+.view-content ul{
+list-style-type: none;
+text-align: center;
+padding: 10px;
+}
+
+.view-content ul li{
+padding: 20px;
+}
+
+.view-content ul li p{
+text-align:start;
+}
+
+.view-footer{
+padding: 0.3rem;
+margin-top: 10px;
+border-top: 2px solid black;
+display: flex;
+justify-content: flex-end;
+margin-bottom: 0px;
+}
+
+.view-close{
+position: absolute;
+font-size: 2rem;
+font-weight: bold;
+top:0.2rem;
+right: 1rem;
+cursor: pointer;
+}
+
+.btn {
+margin: 7px 7px 0 7px ;
+padding: 10px 15px;
+border: 0;
+border-radius: 50px;
+background-color: rgb(9, 163, 104);
+color: rgb(16, 16, 36);
+font-weight: Bold;
+transition: all 0.5s;
+-webkit-transition: all 0.5s;
+}
+
+.btn:hover {
+color:black;
+background-color: rgb(9, 163, 104);
+box-shadow: 0 0 20px rgb(9, 163, 104);;
+transform: scale(1.1);
+}
+
+.btn:active {
+background-color: #2A2B31;
+transition: all 0.25s;
+-webkit-transition: all 0.25s;
+box-shadow: none;
+transform: scale(0.98);
+}
+
+.prodimg {
+width: 100px;
+height: 100px;
+padding: 10px 10px 10px 10px;
+} */

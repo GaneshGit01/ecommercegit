@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+margin: 0px;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+}
+
+.navbar{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 75px;
+color: white;
+background-color: rgb(16, 16, 36);
+}
+
+.logo{
+font-family: 'Times New Roman', Times, serif;
+left: 40px;
+}
+
+.navlink{
+display: flex;
+justify-content: flex-end;
+list-style-type: none;
+width: 80%;
+}
+
+.ul, .navmobile {
+    display: none;
+}
+
+
+.home,.about,.contact,.product{
+text-decoration: none;
+font-family: 'Times New Roman', Times, serif;
+color: white;
+font-size: 20px;
+padding: 10px 10px;
+margin: 0px 10px;
+cursor: pointer;
+}
+
+.ul, li:hover {
+padding: 0.4em 0.4em;
+border: 2px solid rgb(13, 158, 102);
+color: aqua;
+box-shadow: 0 4px 5px;
+border-radius: 8px;
+text-align: center;
+text-transform: uppercase;
+font-size: 5px;
+transition: .4s;
+}
+
+.menubar-icon{
+display: none;
+}
+
+
+@media screen and (max-width:600px) {
+.logo{
+text-align: start;
+display: flex;
+position: absolute;
+top: 15px;
+left: 35px;
+}
+
+.navlink{
+display: none;
+flex-direction: column;
+}
+
+.navmobile{
+position:absolute;
+display: flex;
+flex-direction: column;
+list-style-type: none;
+left: 0;
+top:75px;
+padding:10px;
+text-align: center;
+width: 100%;
+height:max-content;
+transition: all 0.5s ease-out;
+background-color: black;
+}
+
+.navmobile li{
+margin: 15px 0;
+}
+
+.home,.about,.contact, .product{
+color: rgb(13, 158, 102);
+text-align: center;
+padding: 32px;
+width: 100%;
+transition: all 0.5s ease;
+}
+
+
+.menubar-icon{
+display: block;
+position: absolute;
+font-size: 20px;
+text-align: center;
+color: white;
+background-color: rgb(16, 16, 36);
+outline: none;
+top: 26px;
+right: 20px;
+border: none;
+}
+} 

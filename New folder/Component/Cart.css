@@ -1,0 +1,36 @@
+.addcart{  
+    height: 100%;
+    width: 30%;
+}
+
+.cart1{
+    border: 4px solid black;
+    background-color: rgb(16, 16, 36);
+    color: black;
+    display: flex;
+    padding: 20px;
+}
+
+.carticon{
+    margin-left: 250px; 
+}
+
+.prods ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(16, 16, 36);;  
+    color: black;
+}
+
+.prods ul li{
+    padding: 20px;
+}
+
+.prods ul button {
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color:rgb(16, 16, 36);
+    color: black;
+}
