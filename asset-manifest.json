@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecommercegit/static/css/main.6a018077.css",
-    "main.js": "/ecommercegit/static/js/main.a5ee0292.js",
+    "main.css": "/ecommercegit/static/css/main.b9eab44b.css",
+    "main.js": "/ecommercegit/static/js/main.827bfb1a.js",
     "static/media/laptoppng.parspng.com-4.png": "/ecommercegit/static/media/laptoppng.parspng.com-4.da9f537ed1eed69276f5.png",
     "static/media/washingPNG15603.png": "/ecommercegit/static/media/washingPNG15603.88368ed0dd2beea9075a.png",
     "static/media/electronics-38.png": "/ecommercegit/static/media/electronics-38.62e8d489632fbabc2f30.png",
@@ -10,11 +10,11 @@
     "static/media/smartwatchesss.png": "/ecommercegit/static/media/smartwatchesss.d64aa2e399763f92daf9.png",
     "static/media/Earphone.jpeg": "/ecommercegit/static/media/Earphone.94a01ae2e8d83a722fb2.jpeg",
     "index.html": "/ecommercegit/index.html",
-    "main.6a018077.css.map": "/ecommercegit/static/css/main.6a018077.css.map",
-    "main.a5ee0292.js.map": "/ecommercegit/static/js/main.a5ee0292.js.map"
+    "main.b9eab44b.css.map": "/ecommercegit/static/css/main.b9eab44b.css.map",
+    "main.827bfb1a.js.map": "/ecommercegit/static/js/main.827bfb1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a018077.css",
-    "static/js/main.a5ee0292.js"
+    "static/css/main.b9eab44b.css",
+    "static/js/main.827bfb1a.js"
   ]
 }
